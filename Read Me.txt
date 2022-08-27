@@ -1,0 +1,51 @@
+Language Used
+- Core Java ( No drag and drop just pure code )
+- Sql
+
+Steps
+1. Download the project
+2. Install Xampp ( I have used Xampp V3.3.0 )
+3. Run Apache and MySql
+4. Open browser and type:
+   localhost/phpmyadmin/
+5. Go to Import
+6. Click Select File
+7. Go to place where you download the project
+   - Open project
+   - Open Sql File Folder
+   - Select lms.sql
+8. And then Import
+9. Successfully Finish ...
+
+Login
+Id      : admin
+Password: Nepal@123
+
+Remember: You cannot find register/signup button for admin to change his information
+          So for that you need to type:
+          In Login
+          Id:       myKey
+          Password: myKey
+          It will visible Register Key slightly above the forgetpassword button ...
+
+          You can also use the code 0123456789 in both ID and Password to display Register Button. It is factory default code written in source code in class login.java in line 193 and 213 ...
+          
+          *** I have hide the register button for security purposes because anyone can open the app and change the admin information without admin permission so ***
+
+Project Features:
+1. It is admin sided ( Full Admin Control )
+2. It contains:
+   - Login Page
+   - Register Page
+   - Forget Password
+     - Show Password ( Mobile Number for conformation the authorize user )
+     - Change Password
+   - Index ( Home Page )
+   - Add Books
+   - Books Details
+   - Add Students
+   - Student Details
+   - Issue Book
+   - Return Book
+   - Statitics ( Information about Issue Book and Return Book )
+   - Event Log
