@@ -38,7 +38,7 @@ Project Features:
    - Login Page
    - Register Page
    - Forget Password
-     - Show Password ( Mobile Number for conformation the authorize user )
+     - Show Password ( Mobile Number for confirmation the authorize user )
      - Change Password
    - Index ( Home Page )
    - Add Books
